@@ -1,0 +1,52 @@
+/* Navbar styles */
+
+/* Header section (Navbar) */
+header {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    background-color: transparent; /* No background color for header */
+}
+
+/* Navbar Links */
+header nav {
+    display: flex;
+    justify-content: space-between; /* Space between links and login button */
+    width: 100%;
+}
+
+header nav a {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+a.active {
+    background: rgb(8, 1, 1);
+    border-radius: 2px;
+}
+
+a:hover {
+    background: rgb(254, 130, 140);
+    border-radius: 2px;
+}
+
+/* Login button */
+header nav .login {
+    margin-left: auto; /* Pushes the login button to the right */
+    margin-right: 25px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+    background: rgb(254, 130, 140); /* Optional, you can style it the way you want */
+    border-radius: 2px;
+}

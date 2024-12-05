@@ -1,0 +1,25 @@
+.hiphop-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .hiphop-heading {
+    font-size: 3em;
+    color: rgb(254, 130, 140);
+    margin-bottom: 20px;
+  }
+  
+  .hiphop-video {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hiphop-description {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+  }
+  
